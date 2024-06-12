@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        img {
+            cursor: pointer;
+            width: 400px; /* Establecer ancho de las imágenes a 400px */
+        }
+
+        /* Cambiar el fondo del cuerpo del documento */
+        body {
+            font-family: Algerian, sans-serif;
+            background-image: url(n.jpg'); /* Cambia la imagen de fondo */
+            background-size: cover; /* Asegura que la imagen de fondo…
+Aquí tienes el código HTML modificado con la barra que incluye los elementos "Inicio", "Productos", y "Blog":
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        img {
+            cursor: pointer;
+            width: 400px; /* Establecer ancho de las imágenes a 400px */
+        }
+
+        /* Cambiar el fondo del cuerpo del documento */
+        body {
+            font-family: Algerian, sans-serif;
+            background-image: url('background.jpg'); /* Cambia la imagen de fondo */
+            background-size: cover; /* Asegura que la imagen de fondo cubra toda la pantalla */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            background-attachment: fixed; /* Fija la imagen al fondo */
+            margin: 0; /* Elimina los márgenes predeterminados */
+            padding-top: 50px; /* Añade espacio para la barra fija */
+        }
+
+        .comentarios {
+            margin-top: 20px;
+        }
+
+        .botones-sociales {
+            margin-top: 10px;
+        }
+
+        .producto {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .producto img {
+            margin-right: 20px;
+        }
+
+        .barra {
+            width: 100%;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.7); /* Barra semitransparente */
+            color: white;
+            text-align: center;
+            line-height: 50px; /* Centra el texto verticalmente */
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .barra a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Los mejores tenis del estado</title>
+    <link rel="stylesheet" href="estilos.css"> <!-- Incluye estilos adicionales -->
+    <script>
+        function agregarComentario() {
+            var comentario = document.getElementById('comentario').value;
+            var listaComentarios = document.getElementById('lista-comentarios');
+            var nuevoComentario = document.createElement('p');
+            nuevoComentario.textContent = comentario;
+            listaComentarios.appendChild(nuevoComentario);
+            document.getElementById('comentario').value = '';
+        }
+    </script>
+</head>
+<body>
+    <div class="barra">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#blog">Blog</a>
+    </div>
+    <center>
+        <!-- Encabezado -->
+        <header>
+            <img src="0.Gif" alt="Logo de Mi Tienda">
+            <h1></h1>
+            <p></p>
+            <!-- Menús -->
+            <nav>
+                <ul>
+            
+                </ul>
+            </nav>
+        </header>
+    </center>
+    <center>
+        <!-- Página de Inicio -->
+        <section id="inicio">
+            <h2>Bienvenidos a Mi Tienda (𝑺𝑵𝑬𝑨𝑲𝑬𝑹 𝑺𝑻𝑶𝑹𝑬)</h2>
+            <img src="9.jpg" alt="Bienvenidos a la mejor tienda de snikers">
+            <p>Descubre nuestros productos exclusivos y las mejores ofertas.</p>
+            <!-- CTA -->
+            <button onclick="window.location.href='#productos'">Ver Productos</button>
+        </section>
+    </center>
+    <center>
+        <!-- Productos/Servicios -->
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="producto">
+                <img src="3.jpg" alt="Producto 1">
+                <div>
+ <center>
+                    <h3>Producto 1</h3>
+                    <p>AIR FORCE ONE. Precio: $2350 talla mx: 24-29</p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="4.jpg" alt="Producto 2">
+                <div>
+ </center>
+ <center>
+                    <h3>Producto 2</h3>
+                    <p>Nike Air Mag (Edicion Liminitada de "Volver al futuro"). Precio: $92,000 talla mx: 24-30 </p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="6.jpg" alt="Producto 3">
+                <div>
+                    <h3>Producto 3</h3>
+                    <p>Tenis LV Trainer. Precio: $26,200.00 talla mx: 24-28</p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="11.jpg" alt="Producto 4">
+                <div>
+                    <h3>Producto 4</h3>
+                    <p>Tenis LV Groovy con plataforma. Precio: $23,000.00 talla mx: 23-29</p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="12.jpg" alt="Producto 5">
+                <div>
+                    <h3>Producto 5</h3>
+                    <p>Nike Air Force 1 Low Louis Vuitton Monogram Brown Damier Azur. Precio: $6,471,100 talla mx: 27-29</p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="13.jpg" alt="Producto 6">
+                <div>
+                    <h3>Producto 6</h3>
+                    <p>TENIS NIKE SB DUNK LOW JARRITOS. $4,959.00 talla mx: 25-29</p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="14.jpg" alt="Producto 7">
+                <div>
+                    <h3>Producto 7</h3>
+                    <p>Jordan 4 Retro Eminem Carhartt. Precio: $466,200.00 talla mx: 24-29</p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="15.jpg" alt="Producto 8">
+                <div>
+                    <h3>Producto 8</h3>
+                    <p>Alexander McQueen tenis oversize con suela gruesa. Precio: $16,200.00 talla mx: 24-29</p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="16.jpg" alt="Producto 9">
+                <div>
+                    <h3>Producto 9</h3>
+                    <p>Gucci tenis Rhyton. Precio: $15,300.00 talla mx: 23-29 </p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="17.jpg" alt="Producto 10">
+                <div>
+                    <h3>Producto 10</h3>
+                    <p>Jordan tenis Air Jordan 12 Retro. Precio: $10,300.00 talla mx: 23-26</p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="18.jpg" alt="Producto 11">
+                <div>
+                    <h3>Producto 11</h3>
+                    <p>Jordan 2 Retro x J. Balvin Blue 2022. Precio: $6,300.00 talla mx: 24-28</p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="19.jpg" alt="Producto 12">
+                <div>
+                    <h3>Producto 12</h3>
+                    <p>adidas Forum Low Bad Bunny. Precio: $15,350.00 talla mx: 24-29</p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="20.jpg" alt="Producto 13">
+                <div>
+                    <h3>Producto 13</h3>
+                    <p>Botas de astroboy. Precio: $20,300.00 talla mx: 26</p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="21.jpg" alt="Producto 14">
+                <div>
+                    <h3>Producto 14</h3>
+                    <p>Off-White tenis con agujetas Out Of Office. Precio: $11,400.00 talla mx: 24-29</p>
+                </div>
+            </div>
+        </section>
+    </center>
+    <!-- Sobre Nosotros -->
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una empresa dedicada a ofrecer los mejores productos de calzado y lo mejor es que son versión ilimitada y a muy buen precio.</p>
+        <p>Nuestra misión es satisfacer a nuestros clientes.</p
+ <!-- Localización (Google Maps) -->
+        <div>
+            <h3>Encuéntranos aquí</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119480.28547923299!2d-100.55811290273435!3d20.6386811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35a577888efbf%3A0x7ecc7bd4410eabd4!2sCETis%2016!5e0!3m2!1ses-419!2smx!4v1715301609446!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                width="400"
+                height="300"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+            <!-- Comentarios -->
+            <h4>Comentarios</h4>
+            <div id="lista-comentarios">
+                <p>¡Gran artículo!</p>
+                <p>Muy informativo.</p>
+            </div>
+            <div class="comentarios">
+                <form onsubmit="agregarComentario(); return false;">
+                    <label for="comentario">Agregar Comentario:</label>
+                    <textarea id="comentario" name="comentario"></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </article>
+    </section>
